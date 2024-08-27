@@ -5,7 +5,9 @@
     max-width: 70%;
     align-self: flex-end;
     margin-left: 60px; /* Añadido para dar espacio al avatar */
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Cambia el color del fondo */
+    font-size: 16px; /* Ajusta el tamaño */
+    font-family: Arial, sans-serif; /* Cambia la fuente */
 }
 .vfrc-system-response--actions.c-iBVlvN {
     transform: scaleX(-1); /* Invierte visualmente el contenedor de acciones */
@@ -13,6 +15,8 @@
 
 .vfrc-system-response--actions.c-iBVlvN button {
     transform: scaleX(1); /* Restaura la dirección normal del texto en los botones */
+    padding: 10px 20px; /* Ajusta el tamaño del botón */
+    font-size: 14px; /* Cambia el tamaño de la letra en los botones */
 }
 .c-Mmsau > .c-iBVlvN {
     display: flex;
