@@ -14,15 +14,12 @@
 }
 
 #flat-chat {
-    height: 98vh;
-    width: 98vw;
-    overflow-y: auto;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex !important; /* Asegura que el contenido se centre */
-    flex-direction: column !important; /* Alinea los mensajes verticalmente */
-    justify-content: flex-end !important; /* Asegura que los mensajes estén en la parte inferior */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    margin: 0 auto; /* Centra el contenedor */
 }
+
 
 .chat-message {
     max-width: 70% !important; /* Limita el ancho de los mensajes */
@@ -41,6 +38,7 @@
     background-color: #3D2264 !important;
     color: white !important;
 }
+
 
 
 @media (max-width: 768px) {
