@@ -19,28 +19,29 @@
     overflow-y: auto;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex; /* Asegura que el contenido se centre */
-    flex-direction: column; /* Alinea los mensajes verticalmente */
-    justify-content: flex-end; /* Asegura que los mensajes estén en la parte inferior */
+    display: flex !important; /* Asegura que el contenido se centre */
+    flex-direction: column !important; /* Alinea los mensajes verticalmente */
+    justify-content: flex-end !important; /* Asegura que los mensajes estén en la parte inferior */
 }
 
 .chat-message {
-    max-width: 70%; /* Limita el ancho de los mensajes */
-    margin: 5px;
-    border-radius: 15px;
-    padding: 10px;
+    max-width: 70% !important; /* Limita el ancho de los mensajes */
+    margin: 5px !important;
+    border-radius: 15px !important;
+    padding: 10px !important;
 }
 
 .chat-message.bot {
-    align-self: flex-start; /* Alinea los mensajes del bot a la izquierda */
-    background-color: #f1f1f1;
+    align-self: flex-start !important; /* Alinea los mensajes del bot a la izquierda */
+    background-color: #f1f1f1 !important;
 }
 
 .chat-message.user {
-    align-self: flex-end; /* Alinea los mensajes del usuario a la derecha */
-    background-color: #3D2264;
-    color: white;
+    align-self: flex-end !important; /* Alinea los mensajes del usuario a la derecha */
+    background-color: #3D2264 !important;
+    color: white !important;
 }
+
 
 @media (max-width: 768px) {
     #flat-chat {
