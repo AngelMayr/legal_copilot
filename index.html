@@ -4,45 +4,70 @@
   <title>Chat Widget | Extensions Demo</title>
   <style>
     body {
-      background-color: #1f2020;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial, sans-serif;
-    }
+    background-color: #1f2020;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#flat-chat {
+    height: 98vh;
+    width: 98vw;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Asegura que el contenido se centre */
+    flex-direction: column; /* Alinea los mensajes verticalmente */
+    justify-content: flex-end; /* Asegura que los mensajes estén en la parte inferior */
+}
+
+.chat-message {
+    max-width: 70%; /* Limita el ancho de los mensajes */
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.chat-message.bot {
+    align-self: flex-start; /* Alinea los mensajes del bot a la izquierda */
+    background-color: #f1f1f1;
+}
+
+.chat-message.user {
+    align-self: flex-end; /* Alinea los mensajes del usuario a la derecha */
+    background-color: #3D2264;
+    color: white;
+}
+
+@media (max-width: 768px) {
     #flat-chat {
-      height: 98vh;
-      width: 98vw;
-      overflow-y: auto;
-      border: 1px solid #ccc;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    @media (max-width: 768px) {
-      #flat-chat {
         height: 98vh;
         width: 98vw;
-      }
     }
-    @media (max-width: 480px) {
-      #flat-chat {
+}
+
+@media (max-width: 480px) {
+    #flat-chat {
         height: 98vh;
         width: 98vw;
-      }
-      .chat-message {
+    }
+    .chat-message {
         font-size: 14px;
         padding: 8px;
-      }
-      .chat-header {
+    }
+    .chat-header {
         font-size: 16px;
         padding: 10px;
-      }
-      .chat-buttons {
+    }
+    .chat-buttons {
         font-size: 14px;
         padding: 5px;
-      }
     }
+}
+
   </style>
 </head>
 <body>
