@@ -112,7 +112,7 @@
 
 .c-cejRVw {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /*center;*/
     align-items: center;
     padding: 0 0 var(--space-3) 0;
     font-family: var(--fonts-default);
@@ -128,14 +128,14 @@
     right: 10px;
     left: auto;
     max-width: 70%;
-    align-self: flex-end;  /*flex-start*/
+    align-self: flex-start;  /*flex-start end*/
     margin-left: 60px;
     text-align: left;
 }
 
 .c-Mmsau > .c-iBVlvN {
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-start; /*end;*/
     padding-left: var(--space-5);
 }
 
