@@ -66,12 +66,13 @@
     border-radius: var(--radii-1);
     font-family: var(--fonts-default);
     font-size: 15px;
-    font-weight: 500;
-    line-height: 30px;
+    font-weight: 400;
+    line-height: 20px;
     overflow-wrap: anywhere;
     position: relative;
     box-shadow: var(--shadows-surfaceZ1Light);
     transition: background 0.3s, box-shadow 0.3s;
+    text-align: left; /* Alinea el texto a la izquierda */
 }
 
 .c-gMpNkY::after {
@@ -127,8 +128,9 @@
     right: 10px;
     left: auto;
     max-width: 70%;
-    align-self: flex-end;
+    align-self: flex-end;  /*flex-start*/
     margin-left: 60px;
+    text-align: left;
 }
 
 .c-Mmsau > .c-iBVlvN {
