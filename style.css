@@ -113,7 +113,7 @@
 
 .c-cejRVw {
     display: flex;
-    justify-content: flex-start; /*center; Alineación a la izquierda*/
+    justify-content: space-between; /*flex-start; center; Alineación a la izquierda*/
     align-items: center;
     padding: 0 0 var(--space-3) 0;
     font-family: var(--fonts-default);
@@ -131,12 +131,12 @@
     max-width: 70%;
     align-self: flex-start;  /*flex-start end*/
     margin-left: 60px;
-    text-align: left;
+    align-self: flex-start; /*text-align: left;*/
 }
 
 .c-Mmsau > .c-iBVlvN {
     display: flex;
-    justify-content:flex-start; /*end;*/
+    justify-content:flex-end; /*start;*/
     padding-left: var(--space-5);
 }
 
