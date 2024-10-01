@@ -130,7 +130,7 @@
     /*left: auto;     (quitar despues)*/    
     max-width: 70%;
     margin-left: 60px;
-    align-self: flex-start; /*end text-align: left; start;*/
+    align-self: flex-end; /*end text-align: left; start;*/
 }
 
 .c-Mmsau > .c-iBVlvN {
