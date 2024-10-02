@@ -113,7 +113,7 @@
 /*otro lado*/
 .c-cejRVw {
     display: flex;
-    justify-content:flex-end; /*(flex-end; lado derecho) space-between; center; (flex-start; Alineación a la izquierda)*/
+    justify-content:flex-start; /*(flex-end; lado derecho) space-between; center; (flex-start; Alineación a la izquierda)*/
     align-items: center;
     padding: 0 0 var(--space-3) 0;
     font-family: var(--fonts-default);
@@ -121,21 +121,19 @@
     font-weight: 0;
     line-height: 17px;
     color: var(--colors-darkGrey);
-    align-self: text-align:
 }
 /*lado del USUARIO*/
 .c-Mmsau > .c-bwlaNm,
 .c-Mmsau > .c-gSBsRr {
     position: relative;
-    right: 10px;
-    /*left: auto;     (quitar despues)*/    
+    right:auto; /*10px;*/
+    left: auto;        
     max-width: 70%;
-    margin-left: 60px;
-    align-self: flex-start;
-    align-self: flex-end; 
-    text-align: /*end text-align: left; start; flex-end;*/
+    margin-left: auto; /*60px;*/
+    margin-right: 60px; /* Alineación a la derecha */
+    align-self: flex-start; /* text-align: left; / flex-end; o start;*/
 }
-
+/*botones*/
 .c-Mmsau > .c-iBVlvN {
     display: flex;
     justify-content:flex-end; /*start;*/
