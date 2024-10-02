@@ -129,7 +129,7 @@
     right:auto; /*10px;*/
     left: auto;        
     max-width: 70%;
-    margin-left: auto; /*60px;*/
+    /*margin-left: 60px; auto;*/
     margin-right: 60px; /* Alineación a la derecha */
     align-self: flex-start; /* text-align: left; / flex-end; o start;*/
 }
