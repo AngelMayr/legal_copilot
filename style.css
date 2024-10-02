@@ -110,7 +110,7 @@
     opacity: 1;
     visibility: visible;
 }
-
+/*otro lado*/
 .c-cejRVw {
     display: flex;
     justify-content:flex-end; /*(flex-end; lado derecho) space-between; center; (flex-start; Alineación a la izquierda)*/
@@ -132,7 +132,8 @@
     max-width: 70%;
     margin-left: 60px;
     align-self: flex-start;
-    align-self: text-align: /*end text-align: left; start; flex-end;*/
+    align-self: flex-end; 
+    text-align: /*end text-align: left; start; flex-end;*/
 }
 
 .c-Mmsau > .c-iBVlvN {
@@ -193,4 +194,5 @@ h1.vfrc-header--title.c-kfyIxT {
 
 a {
     color: var(--colors-blue);
+    
 }
